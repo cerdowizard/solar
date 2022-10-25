@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className="rigth">
           <ul>
-            <li>Home</li>
+            <li className='active'>Home</li>
             <li>Services</li>
             <li>Projects</li>
             <li>About</li>
