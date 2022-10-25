@@ -6,6 +6,12 @@ import whiteman from '../assets/man-with-white-helmet-near-solar-panel 1.png'
 import plus from '../assets/Group 15.png'
 import clear from '../assets/clarity_group-outline-badged.png'
 import user from '../assets/clarity_group-outline-badged.png'
+import solaMan from '../assets/Mask group.png'
+import phone from '../assets/bxs_phone-call.png'
+import firstImage from '../assets/Component 1.png'
+import secImage from '../assets/Component 2.png'
+import thirdImage from '../assets/Component 3.png'
+import Footer from "../components/Footer";
 const Home = () => {
     return (
         <div>
@@ -89,7 +95,7 @@ const Home = () => {
                             <div className="content">
                                 <span>100+</span>
                                 <p>Installed Capacity</p>
-                          </div>
+                            </div>
                         </div>
                         <div className="iconHolder">
                             <div className="circle">
@@ -113,8 +119,91 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+                <div className="demo container mb-5">
+                    <div className="row">
+                        <div className="col-md-6 left">
+                            <div className="textContainer">
+                                <h1>Solar Solutions</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                <button><img src={phone} alt="" /> Call Now</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 right">
+                            <img src={solaMan} alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className="about">
+                    <div className="content container">
+                        <div className="row">
+                            <div className="col-md-6 right">
+                                <h1>ABOUT  <span>HELIOS ENERGEIA</span></h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </p>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation</p>
+                                <button className='btn'>Learn More</button>
+                            </div>
+                            <div className="col-md-6 left">
+                                <img src={solaMan} alt="" />
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+                <div className="contact container">
+                    <h1 className='text-center '>CONTACT US</h1>
+                    <div className="row mt-5">
+                        <div className="col-md-6 left">
+                            <div className="fes">
+                                <img src={firstImage} alt="" />
+                                <div className="lilcontent">
+                                    <h5>Location:</h5>
+                                    <span>9, Wharf Road, Kariko Tower,
+                                        (5th Floor), Apapa, Lagos</span>
+                                </div>
+
+                            </div>
+                            <div className="fes">
+                                <img src={secImage} alt="" />
+                                <div className="lilcontent">
+                                    <h5 className=''>Email:</h5>
+                                    <span>info@procuremasters.com</span>
+                                </div>
+
+                            </div>
+                            <div className="fes">
+                                <img src={thirdImage} alt="" />
+                                <div className="lilcontent">
+                                    <h5>Call:</h5>
+                                    <span className='one'>(+234)81 1580 0891</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="col-md-6 right">
+                            <form action="">
+                                <div className="fes">
+                                    <input type="text" placeholder='First Name' />
+                                    <input type="text" placeholder='Last Name' />
+                                </div>
+                                <div className="fes">
+                                    <input type="text" placeholder='Your Email' />
+                                    <input type="text" placeholder='Phone Number' />
+                                </div>
+                                <div className="div">
+                                    <textarea placeholder='Message'></textarea>
+                                </div>
+                                <div className="btns">
+                                    <button className="btn">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Footer/>
         </div>
 
     )

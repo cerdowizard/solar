@@ -1,0 +1,84 @@
+#Footer {
+  color: #ffffff;
+  .fesLayer {
+    background-color: #253cb5;
+
+    width: 100%;
+    padding: 1.5rem;
+    .left {
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #ffffff;
+      }
+      p {
+        width: 80%;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #ffffff;
+      }
+    }
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .iconHolder {
+        background-color: white;
+        border-radius: 20px;
+        input {
+          padding: 10px;
+          background-color: transparent;
+          outline: none;
+          border: 0;
+          width: 70%;
+        }
+        button {
+          border: 0;
+          background-color: transparent;
+          padding: 10px;
+          border-radius: 20px;
+          border: 2px solid #ff8a00;
+          width: 30%;
+        }
+      }
+    }
+  }
+  .secondLayer {
+    background: #ff8a00;
+    padding: 1.5rem;
+    .titles {
+        margin-bottom: 1rem;
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      
+    }
+  }
+  .lastLayer {
+    padding: 1.5rem;
+    background: #e77d02;
+    text-align: center;
+    color: #ffffff;
+  }
+}
